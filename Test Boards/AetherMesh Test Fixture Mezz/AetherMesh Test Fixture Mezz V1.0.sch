@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5564,10 +5564,10 @@ sales@aetherconnectivity.com</text>
 <part name="JP2" library="3. growflux" deviceset="M10" device="LOCK"/>
 <part name="M1" library="AetherConnectivity" deviceset="AETHERMESH_MODULE" device="MEZZ-HOLES"/>
 <part name="S1" library="AetherConnectivity" deviceset="STANDOFF" device="WURTH">
-<attribute name="MFG#" value="4882"/>
+<attribute name="MFG#" value="9774040243R"/>
 </part>
 <part name="S2" library="AetherConnectivity" deviceset="STANDOFF" device="WURTH">
-<attribute name="MFG#" value="4882"/>
+<attribute name="MFG#" value="9774040243R"/>
 </part>
 <part name="GND2" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="GND" device=""/>
 <part name="U$1" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="TITLEBLOCK_8.5X11_AETHERCONNECTIVITY" device=""/>

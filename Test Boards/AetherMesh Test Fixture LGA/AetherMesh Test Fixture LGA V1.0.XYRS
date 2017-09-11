@@ -1,0 +1,10 @@
+#MacroFab, INC. XYRS data for C:/Users/eisel/Documents/GitHub/aethermesh/Test Boards/AetherMesh Test Fixture LGA/AetherMesh Test Fixture LGA V1.0.brd.
+#Board Size is 2803.000000 x 2264.000000.
+#
+#Placement Data:
+#Designator	X-Loc	Y-Loc	Rotation	Side	Type	X-Size	Y-Size	Value	Footprint
+J1	2444.44	883.07	90	1	2	214.57	277.56	ej508a	DC_JACK_EJ508A
+JP1	179.50	1567.50	90	1	2	940.00	50.00		1X10_LOCK
+JP2	1803.50	1667.50	270	1	2	940.00	50.00		1X10_LOCK
+M1	981.50	1667.50	0	1	1	1412.00	1160.00		AETHERMESH_SMD_MOUNT_HOLES
+TC1	791.50	631.50	90	1	1	231.00	81.00		TC2050-IDC
