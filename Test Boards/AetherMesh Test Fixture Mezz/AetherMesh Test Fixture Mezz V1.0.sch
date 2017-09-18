@@ -2928,33 +2928,33 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <package name="STANDOFF_WURTH_9774040243R">
 <pad name="P$1" x="0" y="0" drill="3" diameter="5.3" stop="no" thermals="no"/>
 <circle x="0" y="0" radius="2.8" width="0" layer="29"/>
-<polygon width="0" layer="31">
-<vertex x="0.35" y="2.6"/>
-<vertex x="0.35" y="1.48" curve="-64"/>
-<vertex x="1.48" y="0.35"/>
-<vertex x="2.6" y="0.35" curve="74"/>
-<vertex x="0.4" y="2.6"/>
+<polygon width="0.254" layer="31">
+<vertex x="0.35" y="2.473"/>
+<vertex x="0.35" y="1.607" curve="-64"/>
+<vertex x="1.607" y="0.35"/>
+<vertex x="2.473" y="0.35" curve="74"/>
+<vertex x="0.4" y="2.473"/>
 </polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.35" y="-2.6"/>
-<vertex x="-0.35" y="-1.48" curve="-64"/>
-<vertex x="-1.48" y="-0.35"/>
-<vertex x="-2.6" y="-0.35" curve="74"/>
-<vertex x="-0.4" y="-2.6"/>
+<polygon width="0.254" layer="31">
+<vertex x="-0.35" y="-2.473"/>
+<vertex x="-0.35" y="-1.607" curve="-64"/>
+<vertex x="-1.607" y="-0.35"/>
+<vertex x="-2.473" y="-0.35" curve="74"/>
+<vertex x="-0.4" y="-2.473"/>
 </polygon>
-<polygon width="0" layer="31">
-<vertex x="2.6" y="-0.35"/>
-<vertex x="1.48" y="-0.35" curve="-64"/>
-<vertex x="0.35" y="-1.48"/>
-<vertex x="0.35" y="-2.6" curve="74"/>
-<vertex x="2.6" y="-0.4"/>
+<polygon width="0.254" layer="31">
+<vertex x="2.473" y="-0.35"/>
+<vertex x="1.607" y="-0.35" curve="-64"/>
+<vertex x="0.35" y="-1.607"/>
+<vertex x="0.35" y="-2.473" curve="74"/>
+<vertex x="2.473" y="-0.4"/>
 </polygon>
-<polygon width="0" layer="31">
-<vertex x="-2.6" y="0.35"/>
-<vertex x="-1.48" y="0.35" curve="-64"/>
-<vertex x="-0.35" y="1.48"/>
-<vertex x="-0.35" y="2.6" curve="74"/>
-<vertex x="-2.6" y="0.4"/>
+<polygon width="0.254" layer="31">
+<vertex x="-2.473" y="0.35"/>
+<vertex x="-1.607" y="0.35" curve="-64"/>
+<vertex x="-0.35" y="1.607"/>
+<vertex x="-0.35" y="2.473" curve="74"/>
+<vertex x="-2.473" y="0.4"/>
 </polygon>
 </package>
 <package name="STANDOFF_KEYSTONE_4882">
