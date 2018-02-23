@@ -4077,7 +4077,7 @@ http://www.tag-connect.com</description>
 <instance part="R8" gate="G$1" x="50.8" y="142.24" rot="R270">
 <attribute name="MFG#" x="50.8" y="142.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="50.8" y="149.86"/>
+<instance part="SUPPLY3" gate="G$1" x="50.8" y="152.4"/>
 <instance part="U$1" gate="G$1" x="172.72" y="88.9"/>
 <instance part="GND8" gate="1" x="152.4" y="73.66"/>
 <instance part="SUPPLY5" gate="G$1" x="147.32" y="99.06"/>
@@ -4168,7 +4168,7 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="147.32" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="147.32" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
