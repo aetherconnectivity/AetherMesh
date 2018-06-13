@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,6 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -193,16 +195,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="TagConnect">
 <packages>
 <package name="TC2050-IDC">
-<smd name="2" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="10" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
 <smd name="1" x="-2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="7" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="8" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="10" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="9" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="9" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="2" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="8" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="4" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="7" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="6" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="5" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
 <rectangle x1="-2.54" y1="-0.635" x2="2.54" y2="0.635" layer="41"/>
 <hole x="-3.81" y="0" drill="0.9906"/>
 <hole x="3.81" y="1.016" drill="0.9906"/>
@@ -219,16 +221,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="6.35" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="TC2050-IDC-NL">
-<smd name="2" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="10" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
 <smd name="1" x="-2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="7" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="8" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="10" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="9" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="9" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="2" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="8" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="4" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="7" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="6" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="5" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
 <rectangle x1="-2.54" y1="-0.635" x2="2.54" y2="0.635" layer="41"/>
 <hole x="-3.81" y="0" drill="0.9906"/>
 <hole x="3.81" y="1.016" drill="0.9906"/>
@@ -6290,13 +6292,12 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="TC1" library="TagConnect" deviceset="TC2050-IDC" device=""/>
 <part name="J1" library="3. growflux" deviceset="POWER_JACK" device="EJ508A"/>
 <part name="SUPPLY1" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="VCC" device=""/>
 <part name="GND1" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="GND" device=""/>
 <part name="JP1" library="3. growflux" deviceset="M10" device="LOCK"/>
 <part name="JP2" library="3. growflux" deviceset="M10" device="LOCK"/>
-<part name="M1" library="AetherConnectivity" deviceset="AETHERMESH_MODULE" device="MEZZ-HOLES"/>
+<part name="M1" library="AetherConnectivity" deviceset="AETHERMESH_MODULE" device="MEZZ-NOHOLES" value="AETHERMESH_MODULEMEZZ-NOHOLES"/>
 <part name="S1" library="AetherConnectivity" deviceset="STANDOFF" device="WURTH">
 <attribute name="MFG#" value="9774040243R"/>
 </part>
@@ -6307,6 +6308,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$1" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="TITLEBLOCK_8.5X11_AETHERCONNECTIVITY" device=""/>
 <part name="JP3" library="1. growflux" deviceset="M02" device="LOCK"/>
 <part name="SUPPLY2" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="VCC" device=""/>
+<part name="TC3" library="TagConnect" deviceset="TC2050-IDC" device=""/>
+<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="3. growflux" library_urn="urn:adsk.eagle:library:207379" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6314,7 +6318,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </plain>
 <instances>
 <instance part="GND14" gate="1" x="71.12" y="89.154"/>
-<instance part="TC1" gate="A" x="190.5" y="109.474"/>
 <instance part="J1" gate="G$1" x="104.14" y="63.754"/>
 <instance part="SUPPLY1" gate="G$1" x="121.92" y="81.534"/>
 <instance part="GND1" gate="1" x="121.92" y="56.134"/>
@@ -6331,6 +6334,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="JP3" gate="G$1" x="132.08" y="134.62"/>
 <instance part="SUPPLY2" gate="G$1" x="142.24" y="139.954"/>
+<instance part="TC3" gate="A" x="215.9" y="22.86" rot="R180"/>
+<instance part="GND3" gate="1" x="193.04" y="38.1" rot="R180"/>
+<instance part="SUPPLY3" gate="G$1" x="203.2" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -6344,16 +6350,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="58.42" y1="96.774" x2="71.12" y2="96.774" width="0.1524" layer="91"/>
 <junction x="71.12" y="96.774"/>
 <pinref part="M1" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="TC1" gate="A" pin="10"/>
-<wire x1="177.8" y1="114.554" x2="182.88" y2="114.554" width="0.1524" layer="91"/>
-<label x="177.8" y="114.554" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TC1" gate="A" pin="3"/>
-<wire x1="203.2" y1="106.934" x2="198.12" y2="106.934" width="0.1524" layer="91"/>
-<label x="203.2" y="106.934" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -6371,13 +6367,18 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="185.42" y1="61.214" x2="177.8" y2="61.214" width="0.1524" layer="91"/>
 <junction x="177.8" y="61.214"/>
 </segment>
+<segment>
+<pinref part="TC3" gate="A" pin="3"/>
+<wire x1="208.28" y1="25.4" x2="193.04" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="25.4" x2="193.04" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<junction x="193.04" y="25.4"/>
+<pinref part="TC3" gate="A" pin="9"/>
+<wire x1="208.28" y1="17.78" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="17.78" x2="193.04" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="TC1" gate="A" pin="9"/>
-<wire x1="203.2" y1="114.554" x2="198.12" y2="114.554" width="0.1524" layer="91"/>
-<label x="203.2" y="114.554" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="PWR"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
@@ -6389,6 +6390,12 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="139.7" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="137.16" x2="142.24" y2="139.954" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TC3" gate="A" pin="1"/>
+<wire x1="203.2" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+<wire x1="203.2" y1="38.1" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENC_RESET" class="0">
@@ -6468,9 +6475,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="TMS"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="1"/>
-<wire x1="203.2" y1="104.394" x2="198.12" y2="104.394" width="0.1524" layer="91"/>
-<label x="203.2" y="104.394" size="1.27" layer="95" xref="yes"/>
+<pinref part="TC3" gate="A" pin="2"/>
+<wire x1="228.6" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
+<label x="228.6" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TCK" class="0">
@@ -6480,9 +6487,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="TCK"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="8"/>
-<wire x1="177.8" y1="112.014" x2="182.88" y2="112.014" width="0.1524" layer="91"/>
-<label x="177.8" y="112.014" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TC3" gate="A" pin="4"/>
+<wire x1="228.6" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
+<label x="228.6" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TDO" class="0">
@@ -6492,9 +6499,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="TDO"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="6"/>
-<wire x1="177.8" y1="109.474" x2="182.88" y2="109.474" width="0.1524" layer="91"/>
-<label x="177.8" y="109.474" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TC3" gate="A" pin="6"/>
+<wire x1="228.6" y1="22.86" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
+<label x="228.6" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TDI" class="0">
@@ -6504,9 +6511,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="TDI"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="4"/>
-<wire x1="177.8" y1="106.934" x2="182.88" y2="106.934" width="0.1524" layer="91"/>
-<label x="177.8" y="106.934" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TC3" gate="A" pin="8"/>
+<wire x1="228.6" y1="20.32" x2="223.52" y2="20.32" width="0.1524" layer="91"/>
+<label x="228.6" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -6516,9 +6523,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="RESET"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="2"/>
-<wire x1="177.8" y1="104.394" x2="182.88" y2="104.394" width="0.1524" layer="91"/>
-<label x="177.8" y="104.394" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TC3" gate="A" pin="10"/>
+<wire x1="223.52" y1="17.78" x2="228.6" y2="17.78" width="0.1524" layer="91"/>
+<label x="228.6" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO1-TX" class="0">
@@ -6528,9 +6535,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="DIO1-TX"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="5"/>
-<wire x1="203.2" y1="109.474" x2="198.12" y2="109.474" width="0.1524" layer="91"/>
-<label x="203.2" y="109.474" size="1.27" layer="95" xref="yes"/>
+<pinref part="TC3" gate="A" pin="7"/>
+<wire x1="205.74" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
+<label x="205.74" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO0-RX" class="0">
@@ -6540,9 +6547,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="M1" gate="G$1" pin="DIO0-RX"/>
 </segment>
 <segment>
-<pinref part="TC1" gate="A" pin="7"/>
-<wire x1="203.2" y1="112.014" x2="198.12" y2="112.014" width="0.1524" layer="91"/>
-<label x="203.2" y="112.014" size="1.27" layer="95" xref="yes"/>
+<pinref part="TC3" gate="A" pin="5"/>
+<wire x1="208.28" y1="22.86" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
+<label x="205.74" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
